@@ -1,0 +1,5 @@
+Evaluation for model: clip_joint_20250421_041851_BEST
+mAP: 0.2931
+Rank-1: 39.18%
+Rank-5: 62.14%
+Rank-10: 71.25%

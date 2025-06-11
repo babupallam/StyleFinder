@@ -1,0 +1,11 @@
+{
+  "mAP": 0.3481,
+  "Rank-1": 46.24,
+  "Rank-5": 69.33,
+  "Rank-10": 77.59,
+  "timestamp": "20250421_183556",
+  "model_id": "clip_joint_20250421_155346_BEST",
+  "query_size": 14218,
+  "gallery_size": 12612,
+  "ckpt": "model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_155346_BEST.pth"
+}
