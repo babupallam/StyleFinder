@@ -1,0 +1,5 @@
+Evaluation log for model: rn50_subset_ep_10_20250420_222641
+mAP: 0.1170
+Rank-1: 20.73%
+Rank-5: 35.26%
+Rank-10: 41.50%

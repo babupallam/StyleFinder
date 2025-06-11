@@ -1,0 +1,5 @@
+Evaluation log for model: vitb16_subset_ep_10_20250419_175901
+mAP: 0.0849
+Rank-1: 14.90%
+Rank-5: 24.93%
+Rank-10: 30.36%
