@@ -1,0 +1,61 @@
+Training Log  RN50
+Start Time: 20250420_222641
+Image Dir: data/processed/splits/train/img
+Loss Function: supcon
+Learning Rate: 5e-05
+Batch Size: 32
+Epochs: 10
+
+Epoch 1/10
+Loss   | Avg: 4.2967 | Min: 1.9467 | Max: 11.7013 | Std: 0.7120
+CosSim | Avg: 0.9663 | Std: 0.1019
+Grad   | Avg Norm: 88.2045
+
+Epoch 2/10
+Loss   | Avg: 4.1423 | Min: 1.9448 | Max: 4.1501 | Std: 0.0864
+CosSim | Avg: 0.9955 | Std: 0.0013
+Grad   | Avg Norm: 14.3894
+
+Epoch 3/10
+Loss   | Avg: 4.1413 | Min: 1.9446 | Max: 4.1466 | Std: 0.0864
+CosSim | Avg: 0.9966 | Std: 0.0008
+Grad   | Avg Norm: 8.7764
+
+Epoch 4/10
+Loss   | Avg: 4.1409 | Min: 1.9435 | Max: 4.1469 | Std: 0.0864
+CosSim | Avg: 0.9969 | Std: 0.0006
+Grad   | Avg Norm: 6.1654
+
+Epoch 5/10
+Loss   | Avg: 4.1410 | Min: 1.9445 | Max: 4.1733 | Std: 0.0864
+CosSim | Avg: 0.9968 | Std: 0.0015
+Grad   | Avg Norm: 7.5112
+
+Epoch 6/10
+Loss   | Avg: 4.1405 | Min: 1.9436 | Max: 4.1462 | Std: 0.0864
+CosSim | Avg: 0.9971 | Std: 0.0006
+Grad   | Avg Norm: 4.1205
+
+Epoch 7/10
+Loss   | Avg: 4.1402 | Min: 1.9443 | Max: 4.1449 | Std: 0.0863
+CosSim | Avg: 0.9972 | Std: 0.0005
+Grad   | Avg Norm: 2.8055
+
+Epoch 8/10
+Loss   | Avg: 4.1401 | Min: 1.9433 | Max: 4.1439 | Std: 0.0864
+CosSim | Avg: 0.9972 | Std: 0.0005
+Grad   | Avg Norm: 2.1451
+
+Epoch 9/10
+Loss   | Avg: 4.1400 | Min: 1.9433 | Max: 4.1441 | Std: 0.0864
+CosSim | Avg: 0.9972 | Std: 0.0005
+Grad   | Avg Norm: 1.8566
+
+Epoch 10/10
+Loss   | Avg: 4.1399 | Min: 1.9430 | Max: 4.1437 | Std: 0.0864
+CosSim | Avg: 0.9972 | Std: 0.0005
+Grad   | Avg Norm: 1.4978
+
+ Training completed.
+
+Final full model saved: model/stage2_img_encoder_finetune/checkpoints/rn50_subset_ep_10_20250420_222641.pth

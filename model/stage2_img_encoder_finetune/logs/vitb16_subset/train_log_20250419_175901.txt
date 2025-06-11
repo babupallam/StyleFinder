@@ -1,0 +1,61 @@
+Training Log  ViT-B/16
+Start Time: 20250419_175901
+Image Dir: data/processed/splits/train/img
+Loss Function: supcon
+Learning Rate: 5e-05
+Batch Size: 32
+Epochs: 10
+
+Epoch 1/10
+Loss   | Avg: 4.2582 | Min: 1.9466 | Max: 12.7202 | Std: 0.7054
+CosSim | Avg: 0.9838 | Std: 0.0817
+Grad   | Avg Norm: 25.1209
+
+Epoch 2/10
+Loss   | Avg: 4.1404 | Min: 1.9461 | Max: 4.1444 | Std: 0.0863
+CosSim | Avg: 0.9995 | Std: 0.0003
+Grad   | Avg Norm: 4.0627
+
+Epoch 3/10
+Loss   | Avg: 4.1404 | Min: 1.9463 | Max: 4.1444 | Std: 0.0863
+CosSim | Avg: 0.9996 | Std: 0.0002
+Grad   | Avg Norm: 3.4508
+
+Epoch 4/10
+Loss   | Avg: 4.1404 | Min: 1.9471 | Max: 4.1458 | Std: 0.0862
+CosSim | Avg: 0.9997 | Std: 0.0002
+Grad   | Avg Norm: 2.9549
+
+Epoch 5/10
+Loss   | Avg: 4.1402 | Min: 1.9463 | Max: 4.1474 | Std: 0.0863
+CosSim | Avg: 0.9998 | Std: 0.0001
+Grad   | Avg Norm: 2.3018
+
+Epoch 6/10
+Loss   | Avg: 4.1402 | Min: 1.9464 | Max: 4.1440 | Std: 0.0862
+CosSim | Avg: 0.9998 | Std: 0.0001
+Grad   | Avg Norm: 2.0579
+
+Epoch 7/10
+Loss   | Avg: 4.1402 | Min: 1.9463 | Max: 4.1443 | Std: 0.0862
+CosSim | Avg: 0.9998 | Std: 0.0001
+Grad   | Avg Norm: 1.7462
+
+Epoch 8/10
+Loss   | Avg: 4.1403 | Min: 1.9460 | Max: 4.1570 | Std: 0.0863
+CosSim | Avg: 0.9997 | Std: 0.0002
+Grad   | Avg Norm: 1.6686
+
+Epoch 9/10
+Loss   | Avg: 4.1401 | Min: 1.9462 | Max: 4.1447 | Std: 0.0862
+CosSim | Avg: 0.9998 | Std: 0.0001
+Grad   | Avg Norm: 1.0472
+
+Epoch 10/10
+Loss   | Avg: 4.1399 | Min: 1.9461 | Max: 4.1436 | Std: 0.0863
+CosSim | Avg: 0.9999 | Std: 0.0000
+Grad   | Avg Norm: 0.7534
+
+ Training completed.
+
+Final full model saved: model/stage2_img_encoder_finetune/checkpoints/vitb16_subset_ep_10_20250419_175901.pth
