@@ -1,0 +1,5 @@
+Zero-shot CLIP Evaluation (data/processed/features_clip)
+mAP: 0.3391
+Rank-1: 53.31%
+Rank-5: 73.36%
+Rank-10: 79.85%
