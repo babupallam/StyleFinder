@@ -1,0 +1,128 @@
+Stage 3 Joint Training Log  RN50
+Start: 20250421_053013
+Images: data/processed/splits
+Metadata: data/processed/metadata/image_paths_clean.json
+Prompts: data/processed/metadata/image_prompts_clean.json
+
+Epoch 1/20
+Loss Avg: 2.4317 | CosSim: 0.8059 | GradNorm: 341.7902
+
+Validation Loss: 2.5137
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 2.5137)
+
+Epoch 2/20
+Loss Avg: 1.9793 | CosSim: 0.8542 | GradNorm: 211.6019
+
+Validation Loss: 2.2416
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 2.2416)
+
+Epoch 3/20
+Loss Avg: 1.7856 | CosSim: 0.8705 | GradNorm: 175.4490
+
+Validation Loss: 2.2532
+No improvement. Patience 1/3
+
+Epoch 4/20
+Loss Avg: 1.6835 | CosSim: 0.8821 | GradNorm: 151.3084
+
+Validation Loss: 2.8917
+No improvement. Patience 2/3
+
+Epoch 5/20
+Loss Avg: 1.6323 | CosSim: 0.8888 | GradNorm: 140.5800
+
+Validation Loss: 1.9607
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.9607)
+
+Epoch 6/20
+Loss Avg: 1.5665 | CosSim: 0.8954 | GradNorm: 127.2425
+
+Validation Loss: 1.9017
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.9017)
+
+Epoch 7/20
+Loss Avg: 1.5250 | CosSim: 0.9006 | GradNorm: 121.0492
+
+Validation Loss: 2.4729
+No improvement. Patience 1/3
+
+Epoch 8/20
+Loss Avg: 1.4808 | CosSim: 0.9075 | GradNorm: 107.2988
+
+Validation Loss: 1.6495
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.6495)
+
+Epoch 9/20
+Loss Avg: 1.4488 | CosSim: 0.9115 | GradNorm: 102.5715
+
+Validation Loss: 1.9084
+No improvement. Patience 1/3
+
+Epoch 10/20
+Loss Avg: 1.4166 | CosSim: 0.9158 | GradNorm: 96.7073
+
+Validation Loss: 1.5757
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.5757)
+
+Epoch 11/20
+Loss Avg: 1.4063 | CosSim: 0.9181 | GradNorm: 88.7066
+
+Validation Loss: 1.5613
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.5613)
+
+Epoch 12/20
+Loss Avg: 1.3718 | CosSim: 0.9240 | GradNorm: 83.7353
+
+Validation Loss: 1.4466
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.4466)
+
+Epoch 13/20
+Loss Avg: 1.3561 | CosSim: 0.9255 | GradNorm: 80.8872
+
+Validation Loss: 1.5557
+No improvement. Patience 1/3
+
+Epoch 14/20
+Loss Avg: 1.3565 | CosSim: 0.9267 | GradNorm: 78.7726
+
+Validation Loss: 1.4002
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.4002)
+
+Epoch 15/20
+Loss Avg: 1.3281 | CosSim: 0.9306 | GradNorm: 73.5602
+
+Validation Loss: 1.4952
+No improvement. Patience 1/3
+
+Epoch 16/20
+Loss Avg: 1.3107 | CosSim: 0.9326 | GradNorm: 72.3672
+
+Validation Loss: 1.4159
+No improvement. Patience 2/3
+
+Epoch 17/20
+Loss Avg: 1.3134 | CosSim: 0.9343 | GradNorm: 65.9282
+
+Validation Loss: 1.3772
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.3772)
+
+Epoch 18/20
+Loss Avg: 1.2952 | CosSim: 0.9361 | GradNorm: 65.8620
+
+Validation Loss: 1.3440
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_BEST.pth (Loss: 1.3440)
+
+Epoch 19/20
+Loss Avg: 1.2794 | CosSim: 0.9390 | GradNorm: 60.3200
+
+Validation Loss: 1.3736
+No improvement. Patience 1/3
+
+Epoch 20/20
+Loss Avg: 1.2764 | CosSim: 0.9400 | GradNorm: 58.3704
+
+Validation Loss: 1.4501
+No improvement. Patience 2/3
+
+Final model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_053013_FINAL.pth
+Training complete.

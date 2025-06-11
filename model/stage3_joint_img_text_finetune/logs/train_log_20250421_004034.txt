@@ -1,0 +1,68 @@
+Stage 3 Joint Training Log  ViT-B/16
+Start: 20250421_004034
+Images: data/processed/splits
+Metadata: data/processed/metadata/image_paths.json
+Prompts: data/processed/metadata/image_prompts_per_identity.json
+
+Epoch 1/10
+Loss Avg: 2.5166 | CosSim: 0.3670 | GradNorm: 179.1592
+
+Validation Loss: 1.7118
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.7118)
+
+Epoch 2/10
+Loss Avg: 2.2526 | CosSim: 0.4581 | GradNorm: 115.3371
+
+Validation Loss: 1.5620
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.5620)
+
+Epoch 3/10
+Loss Avg: 2.1220 | CosSim: 0.4908 | GradNorm: 93.8102
+
+Validation Loss: 1.4524
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.4524)
+
+Epoch 4/10
+Loss Avg: 2.0298 | CosSim: 0.5150 | GradNorm: 77.6472
+
+Validation Loss: 1.3317
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.3317)
+
+Epoch 5/10
+Loss Avg: 1.9724 | CosSim: 0.5301 | GradNorm: 67.2825
+
+Validation Loss: 1.3342
+No improvement. Patience 1/3
+
+Epoch 6/10
+Loss Avg: 1.9337 | CosSim: 0.5506 | GradNorm: 59.6526
+
+Validation Loss: 1.2711
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.2711)
+
+Epoch 7/10
+Loss Avg: 1.9084 | CosSim: 0.5519 | GradNorm: 55.3925
+
+Validation Loss: 1.2989
+No improvement. Patience 1/3
+
+Epoch 8/10
+Loss Avg: 1.8844 | CosSim: 0.5621 | GradNorm: 48.8891
+
+Validation Loss: 1.3020
+No improvement. Patience 2/3
+
+Epoch 9/10
+Loss Avg: 1.8640 | CosSim: 0.5694 | GradNorm: 43.1054
+
+Validation Loss: 1.2277
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.2277)
+
+Epoch 10/10
+Loss Avg: 1.8503 | CosSim: 0.5763 | GradNorm: 40.2288
+
+Validation Loss: 1.1885
+New best model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_BEST.pth (Loss: 1.1885)
+
+Final model saved to: model/stage3_joint_img_text_finetune/checkpoints/clip_joint_20250421_004034_FINAL.pth
+Training complete.
